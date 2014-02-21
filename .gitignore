@@ -1,13 +1,34 @@
-*.class
-*.log
+# macs...
+.DS_Store
 
-# sbt specific
-dist/*
-target/
-lib_managed/
-src_managed/
-project/boot/
-project/plugins/project/
+# compiler
+out.asm
+target
+project/target
+submit-me.jar
 
-# Scala-IDE specific
-.scala_dependencies
+# VM
+vm/*.d
+vm/*.o
+vm/bin
+
+# Eclipse
+.classpath
+.settings
+.project
+.cache
+bin/
+
+# for ol' times' sake
+tools
+notes.org
+notes.org_archive
+tests/drafts
+tests/course
+
+# assignment id
+.id
+
+# sublime text
+*.sublime-project
+*.sublime-workspace
